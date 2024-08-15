@@ -25,7 +25,19 @@ padding: 20px;
 
 }
 
-
+button {
+  border: none;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  background-color:rgba(255, 255, 255, 0);
+  font-size: 16px;
+  cursor: pointer;
+  filter: drop-shadow(0px 0px 1px #ffffff);
+}
+button:hover {
+  filter: drop-shadow(0px 0px 15px #ffffff);
+}
 
 .navbar {
   min-height: 80px;
